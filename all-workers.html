@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- title -->
+  <title>موطن</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="images/logo/fav.svg" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/fontawesome.min.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!-- animate -->
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <!-- select2 -->
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <!-- owl-carousel -->
+  <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <!-- img gallery -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <!-- odometer -->
+  <link rel="stylesheet" href="css/odometer.min.css" />
+  <!-- Custom style  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <!-- LOADING AREA START ===== -->
+  <div class="loading-area">
+    <div class="loading-box"></div>
+    <div class="loading-pic">
+      <div class="wrapper">
+        <div class="cssload-loader"></div>
+      </div>
+    </div>
+  </div>
+  <!-- LOADING AREA  END ====== -->
+  <!-- ================ Header ================= -->
+  <header></header>
+  <!-- ================ /Header ================= -->
+  <content>
+    <!-- INNER PAGE BANNER -->
+    <div class=" overlay-wraper page-banner">
+      <div class="overlay-main"></div>
+      <div class="container">
+        <div class="banner-content">
+          <div class="banner-title">
+            <div class="banner-title-name">
+              <h2> طلب الاستقدام </h2>
+            </div>
+          </div>
+          <div>
+            <ul class="page-breadcrump list-unstyled">
+              <li><a href="index.html#">الرئيسية</a></li>
+              <li> طلب الاستقدام </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INNER PAGE BANNER END -->
+    <div class="workers-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 rightSidebar">
+            <div class="side-bar">
+              <h4> بحث متقدم </h4>
+              <form class="allWorkersSide">
+                <!-- hide filter in small media -->
+                <div class="hideSideBtn">
+                  <h4> تصفية النتائج </h4>
+                  <span class="icon"> <i class="fa-solid fa-close"></i> </span>
+                </div>
+                <div class="sidebar-filter">
+                  <!-- item -->
+                  <div class="accordionItem">
+                    <!-- accordion Button -->
+                    <button class="accordionButton" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#nationalityFilter">
+                      الجنسية
+                      <sapn class="plus"></sapn>
+                    </button>
+                    <!-- accordion data -->
+                    <div id="nationalityFilter" class="collapse show">
+                      <div class="accordionData">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality1">
+                          <label class="form-check-label" for="nationality1"> الهند </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality2">
+                          <label class="form-check-label" for="nationality2"> اوغندا </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality3">
+                          <label class="form-check-label" for="nationality3"> بنجلادش </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality4">
+                          <label class="form-check-label" for="nationality4">الفلبين</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality5">
+                          <label class="form-check-label" for="nationality5"> موريتانيا </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="nationality" id="nationality6">
+                          <label class="form-check-label" for="nationality6"> جيبوتي </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item -->
+                  <div class="accordionItem">
+                    <!-- accordion Button -->
+                    <button class="accordionButton" type="button" data-bs-toggle="collapse" data-bs-target="#jobFliter">
+                      المهنة
+                      <sapn class="plus"></sapn>
+                    </button>
+                    <!-- accordion data -->
+                    <div id="jobFliter" class=" collapse show">
+                      <div class="accordionData">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="job" id="job1">
+                          <label class="form-check-label" for="job1"> عاملة منزلية </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="job" id="job2">
+                          <label class="form-check-label" for="job2"> سائق خاص </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item -->
+                  <div class="accordionItem">
+                    <!-- accordion Button -->
+                    <button class="accordionButton" type="button" data-bs-toggle="collapse" data-bs-target="#ageFliter">
+                      العمر
+                      <sapn class="plus"></sapn>
+                    </button>
+                    <!-- accordion data -->
+                    <div id="ageFliter" class=" collapse show">
+                      <div class="accordionData">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="age" id="age1">
+                          <label class="form-check-label" for="age1"> من 20 الي 30 </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="age" id="age2">
+                          <label class="form-check-label" for="age2"> من 31 الي 40 </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="age" id="age3">
+                          <label class="form-check-label" for="age3"> من 41 الي 50 </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="control view-button">
+                    <button class="btn clear" type="button"> اعادة تهيئة </button>
+                    <button class="btn confirm" type="submit"> تاكيد </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <div class="hideSideBtn">
+              <h4> تصفية النتائج </h4>
+              <span class="icon"> <i class="fa-solid fa-sliders"></i> </span>
+            </div>
+            <div class="workers-list">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/Driver.jpg" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> خالد توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الفلبين </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : سائق خاص </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحي </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : أعزب </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/house.png" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> ماريا توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الهند </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : عاملة نظافة </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحية </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : عزباء </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/Driver.jpg" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> خالد توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الفلبين </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : سائق خاص </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحي </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : أعزب </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/house.png" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> ماريا توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الهند </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : عاملة نظافة </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحية </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : عزباء </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/house.png" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> ماريا توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الهند </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : عاملة نظافة </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحية </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : عزباء </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="worker-box">
+                    <div class="worker-media">
+                      <img src="images/users/Driver.jpg" alt="#">
+                    </div>
+                    <div class="worker-content">
+                      <a href="#!" class="twm-job-title">
+                        <h4> خالد توفيق مجدى </h4>
+                      </a>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الجنسية : الفلبين </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> المهنة : سائق خاص </p>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled">
+                        <li>
+                          <p class="worker-address"> الديانة : مسيحي </p>
+                        </li>
+                        <li>
+                          <p class="worker-job"> الحالة الاجتماعية : أعزب </p>
+                        </li>
+                      </ul>
+                      <a href="#!" data-bs-toggle="modal" data-bs-target=".cvModal" class="work-details-btn"> عرض
+                        التفاصيل
+                      </a>
+                    </div>
+                    <div class="worker-right-content">
+                      <div class="worker-age"><span>25</span>سنة</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pagination-outer">
+              <div class="pagination-style1">
+                <ul class="clearfix">
+                  <li class="prev"><a href="javascript:;"><span> <i class="fa fa-angle-right"></i> </span></a></li>
+                  <li><a href="javascript:;">1</a></li>
+                  <li class="active"><a href="javascript:;">2</a></li>
+                  <li><a href="javascript:;">3</a></li>
+                  <li><a class="javascript:;" href="javascript:;"><i class="fa fa-ellipsis-h"></i></a></li>
+                  <li><a href="javascript:;">5</a></li>
+                  <li class="next"><a href="javascript:;"><span> <i class="fa fa-angle-left"></i> </span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade cvModal" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <button class="closeBtn" data-bs-dismiss="modal">
+                    <i class="fa-regular fa-xmark"></i>
+                  </button>
+                  <div class="modal-body p-0">
+                    <div class="cv">
+                      <div class="row">
+                        <div class="col-lg-5 p-2">
+                          <div class="mainImg">
+                            <a data-fancybox="user1-CV" href="images/users/Driver.jpg">
+                              <img src="images/users/Driver.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="moreImgs">
+                            <a data-fancybox="user1-CV" href="images/img/cv1.webp">
+                              <img src="images/img/cv1.webp" alt="">
+                            </a>
+                            <a data-fancybox="user1-CV" href="images/users/cv2.webp">
+                              <img src="images/users/cv2.webp" alt="">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 p-2">
+                          <div class="info">
+                            <ul>
+                              <li>
+                                <p class="title"> المهنة : </p>
+                                <h5 class="data"> سائق خاص</h5>
+                              </li>
+                              <li>
+                                <p class="title"> الجنسية : </p>
+                                <h5 class="data"> الهند </h5>
+                              </li>
+                              <li>
+                                <p class="title"> الديانة : </p>
+                                <h5 class="data"> غير مسلم </h5>
+                              </li>
+                              <li>
+                                <p class="title"> الحالة الإجتماعية : </p>
+                                <h5 class="data"> أعزب </h5>
+                              </li>
+                              <li>
+                                <p class="title"> الخبرة العلمية : </p>
+                                <h5 class="data"> ---------- </h5>
+                              </li>
+                              <li>
+                                <p class="title"> راتب العمالة : </p>
+                                <h5 class="data"> 900 ريال </h5>
+                              </li>
+                              <li>
+                                <p class="title"> سعر الاستقدام : </p>
+                                <h5 class="data"> 1600 ريال </h5>
+                              </li>
+                            </ul>
+                            <p class="alertText">لضمان حقك، لا يتم سداد الرسوم بعد الحجز إلا عند طريق منصة مساند </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="btn">تنزيل السيرة
+                      الذاتية </a>
+                    <a href="customer-service.html" class="btn book"> احجز السيرة الذاتية </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <!-- ================Footer =============================-->
+  <footer></footer>
+  <!-- ================Footer =============================-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/odometer.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/Custom.js"></script>
+  <script>
+    $("header").load("header.html");
+    $("footer").load("footer.html");
+  </script>
+</body>
+
+</html>
