@@ -18,26 +18,22 @@ $(document).ready(function () {
   //   $(this).parent().toggleClass("open");
   // });
 
-    //mainSwiper
-    var mainSwiper = new Swiper(".mainSwiper", {
-      spaceBetween: 0,
-      centeredSlides: true,
-      loop: true,
-      // effect: "fade",
-      speed: 500,
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".mainSwiperPagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".mainSwiperNext",
-        prevEl: ".mainSwiperPrev",
-      },
-    });
+  //MainSlider
+  var mainSlider = new Swiper(".mainSliderContainer", {
+    spaceBetween: 0,
+    loop: true,
+    effect: "fade",
+    speed: 500,
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".mainSliderNext",
+      prevEl: ".mainSliderPrev",
+    },
+  });
+
 
   //  Services Carousel function by = owl.carousel.js ========================== //
   $(".Service-carousel").owlCarousel({
